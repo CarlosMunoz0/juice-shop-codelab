@@ -33,6 +33,7 @@ jobs:
           category: "/language:javascript-typescript"
 
   # --- DAST: ZAP escanea la aplicación en ejecución ---
+    
   zap:
     name: "DAST — OWASP ZAP"
     runs-on: ubuntu-latest
